@@ -22,6 +22,7 @@
 		66545C14292391CC00C59C85 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C13292391CC00C59C85 /* RxRelay */; };
 		66545C16292391CC00C59C85 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C15292391CC00C59C85 /* RxSwift */; };
 		66545C19292391F800C59C85 /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C18292391F800C59C85 /* RxGesture */; };
+		66545C1B2924A0BC00C59C85 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66545C1A2924A0BC00C59C85 /* PDFViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		66545BF92923796400C59C85 /* DocumentViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewerUITests.swift; sourceTree = "<group>"; };
 		66545BFB2923796400C59C85 /* DocumentViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66545C0829237A5C00C59C85 /* pdfsample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdfsample.pdf; sourceTree = "<group>"; };
+		66545C1A2924A0BC00C59C85 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				66545BD82923796200C59C85 /* AppDelegate.swift */,
 				66545BDC2923796200C59C85 /* ViewController.swift */,
+				66545C1A2924A0BC00C59C85 /* PDFViewController.swift */,
 				66545C0829237A5C00C59C85 /* pdfsample.pdf */,
 				66545BDE2923796200C59C85 /* Main.storyboard */,
 				66545BE12923796300C59C85 /* Assets.xcassets */,
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66545C1B2924A0BC00C59C85 /* PDFViewController.swift in Sources */,
 				66545BDD2923796200C59C85 /* ViewController.swift in Sources */,
 				66545BD92923796200C59C85 /* AppDelegate.swift in Sources */,
 			);

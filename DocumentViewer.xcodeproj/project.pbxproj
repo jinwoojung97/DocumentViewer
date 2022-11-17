@@ -15,7 +15,6 @@
 		66545BF02923796400C59C85 /* DocumentViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66545BEF2923796400C59C85 /* DocumentViewerTests.swift */; };
 		66545BFA2923796400C59C85 /* DocumentViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66545BF92923796400C59C85 /* DocumentViewerUITests.swift */; };
 		66545BFC2923796400C59C85 /* DocumentViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66545BFB2923796400C59C85 /* DocumentViewerUITestsLaunchTests.swift */; };
-		66545C0929237A5C00C59C85 /* pdfSample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66545C0829237A5C00C59C85 /* pdfSample.pdf */; };
 		66545C0C2923917C00C59C85 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C0B2923917C00C59C85 /* Then */; };
 		66545C0F292391B000C59C85 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C0E292391B000C59C85 /* SnapKit */; };
 		66545C12292391CC00C59C85 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C11292391CC00C59C85 /* RxCocoa */; };
@@ -23,10 +22,11 @@
 		66545C16292391CC00C59C85 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C15292391CC00C59C85 /* RxSwift */; };
 		66545C19292391F800C59C85 /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = 66545C18292391F800C59C85 /* RxGesture */; };
 		66545C1B2924A0BC00C59C85 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66545C1A2924A0BC00C59C85 /* PDFViewController.swift */; };
-		66545C232924CB5E00C59C85 /* pptxSample.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 66545C1F2924B4EE00C59C85 /* pptxSample.pptx */; };
-		66545C292924CEBF00C59C85 /* xlsxSample.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 66545C272924CE2500C59C85 /* xlsxSample.xlsx */; };
 		66545C2C2924D4B400C59C85 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66545C2B2924D4B400C59C85 /* Preview.swift */; };
-		66545C332924D50600C59C85 /* docxSample.docx in Resources */ = {isa = PBXBuildFile; fileRef = 66545C2E2924D4C800C59C85 /* docxSample.docx */; };
+		66C0150B2925BEEC00B903F3 /* xlsxSample.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 66C015072925BEEC00B903F3 /* xlsxSample.xlsx */; };
+		66C0150C2925BEEC00B903F3 /* docxSample.docx in Resources */ = {isa = PBXBuildFile; fileRef = 66C015082925BEEC00B903F3 /* docxSample.docx */; };
+		66C0150D2925BEEC00B903F3 /* pdfSample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66C015092925BEEC00B903F3 /* pdfSample.pdf */; };
+		66C0150E2925BEEC00B903F3 /* pptxSample.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 66C0150A2925BEEC00B903F3 /* pptxSample.pptx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,13 +59,12 @@
 		66545BF52923796400C59C85 /* DocumentViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66545BF92923796400C59C85 /* DocumentViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewerUITests.swift; sourceTree = "<group>"; };
 		66545BFB2923796400C59C85 /* DocumentViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		66545C0829237A5C00C59C85 /* pdfSample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdfSample.pdf; sourceTree = "<group>"; };
 		66545C1A2924A0BC00C59C85 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
-		66545C1F2924B4EE00C59C85 /* pptxSample.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = pptxSample.pptx; sourceTree = "<group>"; };
-		66545C272924CE2500C59C85 /* xlsxSample.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = xlsxSample.xlsx; sourceTree = "<group>"; };
 		66545C2B2924D4B400C59C85 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
-		66545C2E2924D4C800C59C85 /* docxSample.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = docxSample.docx; sourceTree = "<group>"; };
-		66545C312924D4FD00C59C85 /* docxSample.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = docxSample.docx; sourceTree = "<group>"; };
+		66C015072925BEEC00B903F3 /* xlsxSample.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = xlsxSample.xlsx; sourceTree = "<group>"; };
+		66C015082925BEEC00B903F3 /* docxSample.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = docxSample.docx; sourceTree = "<group>"; };
+		66C015092925BEEC00B903F3 /* pdfSample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdfSample.pdf; sourceTree = "<group>"; };
+		66C0150A2925BEEC00B903F3 /* pptxSample.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = pptxSample.pptx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,11 +154,10 @@
 		66545C2D2924D4BF00C59C85 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				66545C312924D4FD00C59C85 /* docxSample.docx */,
-				66545C0829237A5C00C59C85 /* pdfSample.pdf */,
-				66545C2E2924D4C800C59C85 /* docxSample.docx */,
-				66545C1F2924B4EE00C59C85 /* pptxSample.pptx */,
-				66545C272924CE2500C59C85 /* xlsxSample.xlsx */,
+				66C015082925BEEC00B903F3 /* docxSample.docx */,
+				66C015092925BEEC00B903F3 /* pdfSample.pdf */,
+				66C0150A2925BEEC00B903F3 /* pptxSample.pptx */,
+				66C015072925BEEC00B903F3 /* xlsxSample.xlsx */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -282,13 +280,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66545C332924D50600C59C85 /* docxSample.docx in Resources */,
-				66545C292924CEBF00C59C85 /* xlsxSample.xlsx in Resources */,
-				66545C232924CB5E00C59C85 /* pptxSample.pptx in Resources */,
 				66545BE52923796300C59C85 /* LaunchScreen.storyboard in Resources */,
-				66545C0929237A5C00C59C85 /* pdfSample.pdf in Resources */,
+				66C0150C2925BEEC00B903F3 /* docxSample.docx in Resources */,
+				66C0150B2925BEEC00B903F3 /* xlsxSample.xlsx in Resources */,
+				66C0150D2925BEEC00B903F3 /* pdfSample.pdf in Resources */,
 				66545BE22923796300C59C85 /* Assets.xcassets in Resources */,
 				66545BE02923796200C59C85 /* Main.storyboard in Resources */,
+				66C0150E2925BEEC00B903F3 /* pptxSample.pptx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
